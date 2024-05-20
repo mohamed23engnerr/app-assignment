@@ -1,0 +1,29 @@
+
+.ching{
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+}
+
+.ching h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.denger{
+    background-color: rgb(26, 188, 156);
+    height: 95vh;
+    color: #fff;
+}
+
+.prod1{
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.prod{
+width: 100px;
+height: 1px;
+margin: 5px 20px;
+border: #fff solid;
+}

@@ -1,0 +1,38 @@
+.padng{
+    border: 1px solid white;
+    width:35px ;
+    height: 35px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 5px;
+
+}
+
+.home{
+    background-color: rgb(44, 62, 80);
+    padding: 90px 0px;
+    color: #fff;
+}
+
+.text{
+    text-align: center;
+}
+
+.text1{
+    margin-left: 88px;
+}
+
+.demo2{
+    background-color: rgb(26, 37, 47);
+}
+
+.demo2 p{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+
+}

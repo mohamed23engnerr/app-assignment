@@ -1,0 +1,25 @@
+.cursol{
+    background-color: rgb(26, 188, 156);
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.imgg{
+    width: 270px;
+    margin-top: 9%;
+}
+
+.prod1 {
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.prod {
+    width: 100px;
+    height: 1px;
+    margin: 5px 20px;
+    border: #fff solid;
+}

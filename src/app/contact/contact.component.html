@@ -1,0 +1,29 @@
+<div class="ching">
+<h1>CONATCT SECTION</h1>
+</div>
+<div class="d-flex prod1">
+    <div class="prod"></div>
+
+    <i class="fa-solid fa-star"></i>
+
+    <div class="prod"></div>
+
+</div>
+
+<div class="w-50 m-auto">
+    <form> 
+        <label  [style.display]="isUser==true?'none':'block'"  id="labl1">userName:</label>
+        <input  (keyup)="ching()" type="text" placeholder="userName" class="w-100 my-4 p-3  border-0 border-bottom rounded-3  ">
+        
+        <label [style.display]="isUser1==true?'none':'block'"  id="labl1">userAge:</label>
+        <input (keyup)="ching1()" type="text" placeholder="userAge" class="w-100 my-3 p-3 border-0 border-bottom rounded-3">
+        
+        <label [style.display]="isUser2==true?'none':'block'"  id="labl1">userEmail:</label>
+        <input (keyup)="ching2()" type="email" placeholder="userEmail" class="w-100 my-4 p-3 border-0 border-bottom rounded-3">
+        
+        <label [style.display]="isUser3==true?'none':'block'"  id="labl1">userPassword:</label>
+        <input (keyup)="ching3()" type="password" placeholder="userPassword" class="w-100 my-3 p-3 border-0 border-bottom rounded-3">
+
+    </form>
+    <button class="btn btn-success my-4">userPassword</button>
+</div>
